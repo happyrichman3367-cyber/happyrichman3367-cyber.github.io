@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hermes — personal automation tool</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+         max-width: 44rem; margin: 3rem auto; padding: 0 1.25rem;
+         line-height: 1.65; color: #1a1a1a; background: #fff; }
+  @media (prefers-color-scheme: dark) { body { color: #e6e6e6; background: #141414; } a { color: #8ab4f8; } }
+  h1 { font-size: 1.7rem; margin-bottom: .35rem; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  .lede { color: #666; margin-top: 0; }
+  @media (prefers-color-scheme: dark) { .lede { color: #aaa; } }
+  nav a { margin-right: 1rem; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #ddd;
+            font-size: .85rem; color: #777; }
+  code { font-size: .9em; }
+</style>
+</head>
+<body>
+<nav><a href="index.html">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+
+<h1>Hermes</h1>
+<p class="lede">A private, single-user automation tool.</p>
+
+<p>Hermes is a personal command-line assistant used by one person (its owner) to
+organise their own work: reading their own email, their own calendar, and files in
+their own Google Drive, and producing summaries and reports for that same person.</p>
+
+<h2>What this application is</h2>
+<ul>
+  <li>It is <strong>not a public service</strong>. It has no sign-up, no user accounts
+      other than the owner's, and it is not distributed to third parties.</li>
+  <li>It runs locally on the owner's own computer and connects to Google APIs using
+      the owner's own OAuth authorisation.</li>
+  <li>All data it processes belongs to the owner. Nothing is sold, published, or
+      shared with anyone else.</li>
+</ul>
+
+<h2>Why it requests Google permissions</h2>
+<ul>
+  <li><strong>Google Drive</strong> — to read documents the owner needs summarised and
+      to save generated reports back into the owner's own folders.</li>
+  <li><strong>Google Sheets</strong> — to record incoming correspondence in the owner's
+      own tracking spreadsheet.</li>
+  <li><strong>Google Calendar</strong> — to show the owner's own schedule.</li>
+  <li><strong>Gmail (read-only)</strong> — to find relevant messages. The application
+      never sends, deletes, or modifies email.</li>
+</ul>
+
+<h2>Data handling in one sentence</h2>
+<p>Everything stays on the owner's machine and in the owner's own Google account.</p>
+
+<p>See the <a href="privacy.html">Privacy Policy</a> for details.</p>
+
+<footer>Contact: happyrichman3367@gmail.com &middot; Last updated: 10 November 2026</footer>
+</body>
+</html>
